@@ -1,0 +1,137 @@
+Route.Comment Route Sarang's first route,
+
+Route.Gauge 1435,
+
+Route.DeveloperID sarang123,
+
+Route.change 1,
+
+with train,
+
+Train.Folder BR_Class_323,
+
+With Structure
+
+.Rail(1) DLTUTORIAL_1\straight.b3d,
+
+.Rail(2) DLTUTORIAL_1\250_l.b3d,
+
+.Rail(3) DLTUTORIAL_1\500_l.b3d,
+
+.Rail(4) DLTUTORIAL_1\750_l.b3d,
+
+.Rail(5) DLTUTORIAL_1\1000_l.b3d,
+
+.Rail(6) DLTUTORIAL_1\1250_l.b3d,
+
+.Rail(7) DLTUTORIAL_1\1500_l.b3d,
+
+.Rail(8) DLTUTORIAL_1\2000_l.b3d,
+
+.Rail(9) DLTUTORIAL_1\250_r.b3d,
+
+.Rail(10) DLTUTORIAL_1\500_r.b3d,
+
+.Rail(11) DLTUTORIAL_1\750_r.b3d,
+
+.Rail(12) DLTUTORIAL_1\1000_r.b3d,
+
+.Rail(13) DLTUTORIAL_1\1250_r.b3d,
+
+.Rail(14) DLTUTORIAL_1\1500_r.b3d,
+
+.Rail(15) DLTUTORIAL_1\2000_r.b3d,
+
+.Rail(51) DLTUTORIAL_1\dl_straight.b3d,
+
+.Ground(1) DLTUTORIAL_1\ground1.csv,
+
+.Freeobj(1) DLTUTORIAL_1\stop_500m.csv,
+
+.Freeobj(2) DLTUTORIAL_1\stop_here.csv,
+
+Texture.Background(0) DLTUTORIAL_1\background_1.bmp,
+
+With Track,
+
+0,.Ground 1,.back 0,.railtype 0;1,.sta chennai; 12.2720;12.2805;1;1;0;;;7;20;;0,
+
+.railstart 1;4.5;0;1,
+
+25,.stop 0,
+
+100,.curve 2000;2,.railtype 0;15,.railtype 0;15,
+
+125,.curve 1000;7,.railtype 0;12,.railtype 0;12,
+
+150,.curve 500;15,.railtype 0;10,.railtype 0;10,
+
+175,.curve 1000;7,.railtype 0;12,.railtype 0;12,
+
+200,.curve 1000;2,.railtype 0;15,.railtype 0;15,
+
+220,.curve 0;0,.railtype 0;1,.railtype 1;1,
+
+400,.freeobj 0;1,
+
+425,.railtype 0;5,.rail 1;3.5,.curve -1000;0,
+
+450,.rail 1;4.13;0;12,
+
+475,.rail 1;6.00,
+
+500,.sta bangalore; 12.3100;12.3200;;-1;;;;30;30;;0,.rail 1;9.13,.curve 1000;0,
+
+.railtype 0;12,.railtype 1;5,
+
+525,.rail 1;12.26,
+
+550,.rail 1;14.13,
+
+575,.curve 0;0,.railtype 0;1,.rail 1;14.73,.railtype 1;1,
+
+800,.Stop -1;25;5,.freeobj 0;2,
+
+850,.curve 1000;0,.railtype 0;12,.railtype 1;5,.rail 1;14.73,
+
+875,.rail 1;14.13,
+
+900,.rail 1;12.26,
+
+925,.rail 1;9.13,.curve -1000;0,.railtype 0;5,.railtype 1;12,
+
+950,.rail 1;6.00,
+
+975,.rail 1;4.13,
+
+1000,.rail 1;3.5,.curve 0;0,.railtype 0;1,.railtype 1;1,
+
+1050,.curve -250;0,.railtype 0;2,.railtype 1;2,.railstart 2;0;0;1,.railstart 3;3.5;0;1,
+
+1075,.rail 2;1.25,.rail 3;4.75,
+
+1100,.curve 0;0,.railtype 0;1,.railtype 1;1,.rail 2;5.05,.rail 3;8.55,
+
+1125,.rail 2;10.13,.rail 3;13.63,
+
+1150,.rail 2;15.21,.rail 3;18.71,
+
+1175,.rail 2;20.29,.rail 3;23.79,
+
+1200,.rail 2;25.37,.rail 3;28.87,
+
+1225,.rail 2;30.45,.rail 3;33.95,
+
+1250,.rail 2;35.53,.rail 3;39.03,
+
+1275,.rail 2;40.61,.rail 3;44.11,
+
+1300,.rail 2;45.69,.rail 3;49.19,
+
+1325,.railend 2;50.77,.railend 3;54.27,
+
+1350,.freeobj 0;1,
+
+1400,.sta mumbai; 12.3600;12.3700;;-1;;;;30;30;;0,
+
+1450,.Stop 1;10;10,
